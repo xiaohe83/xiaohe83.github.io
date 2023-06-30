@@ -1,7 +1,7 @@
 ---
 layout: home
 title: about
-permalink: /Jekyll-gitbook
+permalink: /
 ---
 
 Hex's code snippet
