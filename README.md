@@ -1,7 +1,9 @@
 ---
 layout: home
-title: about
+title: Hex's code snippet 
 permalink: /
 ---
 
-Hex's code snippet
+Hex, a programer, and dream to become a writer.
+
+Here is the hex's code snippet.
