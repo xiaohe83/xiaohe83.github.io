@@ -6,16 +6,16 @@ category: Jekyll
 layout: post
 ---
 
-    Actually, the detailed instructions on how to configure this can already be found in the Google Cloud documentation. So why am I writing this article? As I encountered some misleading articles while trying to solve this problem, which prompted me to compile this article again.
+Actually, the detailed instructions on how to configure this can already be found in the Google Cloud documentation. So why am I writing this article? As I encountered some misleading articles while trying to solve this problem, which prompted me to compile this article again.
 
 ### Before we start
-    I believe that if you are able to see this article, you have already used Google Cloud and are familiar with the gcloud tools (if not, you can learn about it by [install the gcloud CLI](https://cloud.google.com/sdk/docs/install) ). You should also have a clear understanding of why signed URLs/cookies are needed. Without further ado, let's move on to the next section.
+I believe that if you are able to see this article, you have already used Google Cloud and are familiar with the gcloud tools (if not, you can learn about it by [install the gcloud CLI](https://cloud.google.com/sdk/docs/install) ). You should also have a clear understanding of why signed URLs/cookies are needed. Without further ado, let's move on to the next section.
 
 ### The right document
-    [This article](https://medium.com/@thetechbytes/private-gcs-bucket-access-through-google-cloud-cdn-430d940ebad9) describes a method using a backend service -> Internet network endpoint group to access a private bucket. However, this method is *no longer applicable*. If you haven't been misled by that, we can proceed.
+[This article](https://medium.com/@thetechbytes/private-gcs-bucket-access-through-google-cloud-cdn-430d940ebad9) describes a method using a backend service -> Internet network endpoint group to access a private bucket. However, this method is *no longer applicable*. If you haven't been misled by that, we can proceed.
 
 ### Creating a bucket
-    select *Cloud Storage* from the left navigation menu, and create:
+select *Cloud Storage* from the left navigation menu, and create:
 ![create private bucket](https://pics.gcs.hexhxiao.com/Google-Cloud-Bucket/create-private-bucket.png?Expires=1790000000&KeyName=signkey&Signature=sNQkrUoIOkSIKtEVi4iKilvKaFA=)
 *Notice*:
 1. enable **Public access prevention**
