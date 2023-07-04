@@ -64,4 +64,5 @@ regenerate:       true
 plugins:
   - jekyll-feed
   - jekyll-readme-index
+  - jekyll-sitemap
   - jemoji
